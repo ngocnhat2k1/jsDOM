@@ -73,23 +73,23 @@
   </style>
 </head>
 <body>
-  <audio class="audio" src="sounds/A.wav" type="audio/wav"></audio>
-  <audio class="audio" src="sounds/B.wav" type="audio/wav"></audio>
-  <audio class="audio" src="sounds/C.wav" type="audio/wav"></audio>
-  <audio class="audio" src="sounds/D.wav" type="audio/wav"></audio>
-  <audio class="audio" src="sounds/E.wav" type="audio/wav"></audio>
-  <audio class="audio" src="sounds/F.wav" type="audio/wav"></audio>
-  <audio class="audio" src="sounds/G.wav" type="audio/wav"></audio>
+  <audio id="A" class="audio" src="sounds/A.wav" type="audio/wav"></audio>
+  <audio id="B" class="audio" src="sounds/B.wav" type="audio/wav"></audio>
+  <audio id="C" class="audio" src="sounds/C.wav" type="audio/wav"></audio>
+  <audio id="D" class="audio" src="sounds/D.wav" type="audio/wav"></audio>
+  <audio id="E" class="audio" src="sounds/E.wav" type="audio/wav"></audio>
+  <audio id="F" class="audio" src="sounds/F.wav" type="audio/wav"></audio>
+  <audio id="G" class="audio" src="sounds/G.wav" type="audio/wav"></audio>
   <div class="container">
-    <button class="sound sound-c">c</button>
-    <button class="sound sound-d">d</button>
-    <button class="sound sound-e">e</button>
-    <button class="sound sound-f">f</button>
-    <button class="sound sound-g">g</button>
-    <button class="sound sound-a">a</button>
-    <button class="sound sound-b">b</button>
+    <button onclick="playsoundsC()" class="sound sound-c">c</button>
+    <button onclick="playsoundsD()" class="sound sound-d">d</button>
+    <button onclick="playsoundsE()" class="sound sound-e">e</button>
+    <button onclick="playsoundsF()" class="sound sound-f">f</button>
+    <button onclick="playsoundsG()" class="sound sound-g">g</button>
+    <button onclick="playsoundsA()" class="sound sound-a">a</button>
+    <button onclick="playsoundsB()" class="sound sound-b">b</button>
   </div>
 </body>
-  <!-- <script src="main.js"></script> -->
+  <script src="main.js"></script> 
   <!-- <script src="main-keyboard.js"></script> -->
 </html>
